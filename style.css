@@ -27,7 +27,7 @@ body {
 }
 
 .banner {
-  background-image: url('images/Design\ sem\ nome\ \(1\).png');
+  background-image: url('images/logmarca.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 278px;
@@ -54,21 +54,6 @@ body {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-}
-
-.contra-capa {
-  background-image: url('/imagens/Design sem nome (1)'); /* Substitua pelo caminho correto da imagem */
-  background-size: cover;
-  background-position: center;
-  height: 400px; /* Ajuste conforme necessário */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-size: 24px;
-  padding: 20px;
 }
 
 .btn:hover {
