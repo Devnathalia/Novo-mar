@@ -15,15 +15,16 @@ body {
 }
 
 .wrap {
-  width: 1280px;
-  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
 .header {
   text-align: center;
   width: 100%;
   background-color: var(--bg-color);
-  margin: 15px 15px;
+  margin: 15px 0;
 }
 
 .banner {
@@ -157,4 +158,53 @@ body {
   color: #fff;
   font-weight: 500;
   line-height: 24px;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  .wrap {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .livros {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .livro {
+    width: 100%;
+    max-width: 320px;
+    margin: 10px 0;
+  }
+
+  .livro__titulo {
+    font-size: 16px;
+  }
+
+  .livro__descricao {
+    font-size: 16px;
+  }
+
+  .livro__preco {
+    font-size: 20px;
+  }
+
+  .tags {
+    justify-content: center;
+  }
+
+  .tag {
+    font-size: 12px;
+    margin: 5px 5px;
+  }
+
+  .rodape {
+    height: 80px;
+    padding: 10px;
+  }
+
+  .rodape p {
+    font-size: 16px;
+  }
 }
