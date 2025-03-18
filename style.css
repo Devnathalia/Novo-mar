@@ -22,7 +22,7 @@ body {
 .header {
   text-align: center;
   width: 100%;
-  background-color: var(--bg-color);
+  background-color: red;
   margin: 15px 15px;
 }
 
